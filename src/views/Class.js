@@ -17,7 +17,7 @@ export default class Class extends Component {
         fetch('https://kekambas-bs.herokuapp.com/kekambas')
             .then(res => res.json())
             .then(data => this.setState({
-                classmates: data  // racers: data.MRData.StandingsTable.StandingsLists[0].DriverStandings
+                classmates: data// racers: data.MRData.StandingsTable.StandingsLists[0].DriverStandings
             }))
     }
 
